@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "moncoran",
+    "slug": "morocan",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/moncsmall.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/moncoran.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.dev_eddy.morocan"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": ["expo-font", "expo-video"],
+    "extra": {
+      "eas": {
+        "projectId": "490277a4-b0b6-450c-826f-0740e850fe36"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/490277a4-b0b6-450c-826f-0740e850fe36"
+    }
+  }
+}
